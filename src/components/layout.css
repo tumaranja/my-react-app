@@ -1,3 +1,5 @@
+/* Elements */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -10,6 +12,22 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
+
+p {
+  margin: 0;
+}
+
+/* Margin classes */
+
+.MarginBottom24 {
+  margin-bottom: 24px;
+}
+
+.MarginBottom16 {
+  margin-bottom: 16px;
+}
+
+/* Classes */
 
 .Hero {
   background: url('../images/wallpaper3.jpg');
@@ -79,6 +97,7 @@ a {
   padding: 9px 20px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .AppLogos {
@@ -93,4 +112,39 @@ a {
 
 .AppLogo {
   padding: 0 20px;
+}
+
+.CallToAction {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.ButtonMain {
+  display: block;
+  color: white;
+  background: linear-gradient(93.96deg, #4B26FF 0%, #B01EFF 100%);
+  padding: 15px 50px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 20px rgba(101, 41, 255, 0.15);
+}
+
+.AllCapsLight {
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #B9C8DD;
+}
+
+.TextSmall {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #205284;
+  letter-spacing: 2px;
+}
+
+.Courses {
+  position: relative;
+  top: 100px;
 }
